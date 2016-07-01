@@ -10,17 +10,40 @@ body {
 
 /* HEADER */
 
-header{
-  padding: 5%;
-  background-image: url(../images/top.png);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+header {
+  	padding: 5%;
+  	background-image: url(../images/top.png);
+  	background-size: 100% 100%;
+  	background-repeat: no-repeat;
+  	height: 30%;
+  	position: relative;
 }
 
 h1 {
 	font-size: 3em;
 	text-align: center;
+	color: #ffffff;
+	margin: auto;
 }
+
+	/*menu hamburguer*/
+.menu-icon-bar {
+    display: block;
+    width: 2em;
+    height: .3em;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    margin: 4px 0;
+    border-radius: 1px;
+}
+
+#menu-icon {
+	float: left;
+	position: absolute;
+	top: 40%;
+}
+	/*fim hamburguer*/
+
 
 /* END HEADER */
 
@@ -45,6 +68,10 @@ a, a:link, a:visited, a:hover, a:active { /*links*/
 	text-decoration: none;
 	color: black;
 }
+img {
+	width: 100%;
+} 
+
 
 	/*Divisão em colunas*/
 

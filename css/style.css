@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: ;
+}
+
+/* HEADER */
+
+header{
+  padding: 5%;
+  background-image: url(../images/top.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+h1 {
+	font-size: 3em;
+	text-align: center;
+}
+
+/* END HEADER */
+
+/* CONTENT */
+#content {
+	padding: 5%;
+}
+
+h2 { /* Subtítulos */
+	font-size: 2em;
+}
+
+p { /*parágrafos normais*/
+	font-size: 1.5em;
+}
+
+.description { /*descrições de texto com fonte menor*/
+	font-size: 1em;
+}
+
+a, a:link, a:visited, a:hover, a:active { /*links*/
+	text-decoration: none;
+	color: black;
+}
+
+	/*Divisão em colunas*/
+
+.linha {
+	clear: both;
+}
+.pc100 { /*100% da linha*/
+	position: relative;
+	float: left;
+	width: 100%; 
+}
+.pc30 { /*30% da linha*/
+	position: relative;
+	float: left;
+	width: 30%;
+}
+.pc70 { /*70% da linha*/
+	position: relative;
+	float: left;
+	width: 70%;
+}
+	/*fim da divisão em colunas*/
+
+/* END CONTENT */
